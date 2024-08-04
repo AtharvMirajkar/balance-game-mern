@@ -3,12 +3,13 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Register from "./components/Register";
 import { Container } from "react-bootstrap";
+import Game from "./components/Game";
 
 function App() {
   return (
     <>
-      <h2 className="text-center mt-5">Balance game</h2>
-      <Register />
+      {/* <Register /> */}
+      <Game />
     </>
   );
 }
